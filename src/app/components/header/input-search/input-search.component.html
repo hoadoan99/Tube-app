@@ -1,0 +1,12 @@
+<mat-grid-list cols="1" rowHeight="100px" gutterSize="20px" class="mt-10">
+  <mat-grid-tile>
+    <mat-form-field class="example-form-field" appearance="fill">
+      <mat-label>Type to search for videos</mat-label>
+      <input matInput type="text" [(ngModel)]="value">
+      <button *ngIf="value" matSuffix mat-icon-button aria-label="Clear" (click)="value=''">
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-form-field>
+
+  </mat-grid-tile>
+</mat-grid-list>

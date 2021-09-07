@@ -1,0 +1,9 @@
+.example-form-field {
+  width: 70%;
+}
+mat-grid-tile {
+  background: transparent;
+}
+mat-label{
+  font-size: 15px;
+}
